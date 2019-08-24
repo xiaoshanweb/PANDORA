@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container .header{
+    width: 1349px;
+    height: 159px;
+    border-bottom: 1px solid #000;
+}
+.container .describle{
+    background: url(../img/breadcrumb-bg.jpg);
+}
+.container .describle .breadcrumb{
+    width: 1128px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 8px 19px 14px;
+    box-sizing: border-box;
+}
+.container .describle .breadcrumb a{
+    color: #333333;
+    font:12px simhei;
+}
+.container .describle .breadcrumb .next-link{
+    color: #706D75;
+    font:12px simhei;
+}
+.container .describle .breadcrumb .breadcrumb-elem{
+    color: #B8B8B8;
+    font:12px simhei;
+}
+.container .describle .brief-flex{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container .describle .brief-flex h1{
+    margin-bottom: 12px;
+    color: #333333;
+    font-family: simhei; 
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.container .describle .brief-flex .product-count{
+    color: #B0B0B0;
+    font-family: simhei; 
+}
+.container .describle .brief-flex .desc-word{
+    margin-bottom: 25px;
+}
+.container .describle .brief-flex .desc-word p{
+    margin: 14px 0;
+    color: #333333;
+    font:14px "simhei";
+    text-align: center;
+}
+.container .describle .product-kind{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container .describle .product-kind .product-link{
+    display: inline-block;
+    border: 1px solid #f1f1f3;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    padding:8px 10px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font: 12px "0ptima li w01 roman";
+}
+.container .filter{
+    width: 100%;
+    height: 40px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f1f1f3;
+    border-bottom: 1px solid #f1f1f3;
+    position: relative;
+}
+.container .filter-content{
+    max-width: 1128px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 19px;
+    box-sizing: border-box;
+}
+.container .filter .filter-left{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.container .filter .filter-left span{
+    display: inline-block;
+    margin-right: 35px;
+    padding: 15px 0 10px;
+    font:12px simhei;
+    color: #333333;
+    position: relative;
+}
+.container .filter .filter-right span:after,
+.container .filter .filter-left span::after{
+    position: absolute;
+    right: -18px;
+    top: 19px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+    border-color: #fff transparent;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.container .filter .filter-right span:before,
+.container .filter .filter-left span::before{
+    content: "";
+    position: absolute;
+    right: -18px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+    border-color: #333333 transparent;
+}
+.container .filter .filter-left .expend{
+    width: 100%;
+    padding-bottom: 12px;
+    box-shadow:0 1px 5px #888;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    background-color: #fff;
+
+}
+.container .filter .filter-left .expend .expend-main{
+    width: 1166px;
+    margin: 0 auto;
+    padding: 33px 0 14px;
+}
+.container .filter .filter-left .expend .expend-main-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.container .filter .filter-left .expend .expend-main-flex .expend-flex-item{
+    width: 100px;
+    padding: 3px 30px 3px 0;
+    margin-bottom: 7px;
+}
+.container .filter .filter-left .expend .expend-main-flex .expend-flex-item img{
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
+.container .filter .filter-left .expend .expend-main-flex .expend-flex-item p{
+    font: 12px simhei;
+    color: #333;
+    padding-top: 8px;
+    text-align: center;
+}
+.container .filter .filter-right{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    font: 12px simhei;
+    color: #333;
+    position: relative;
+}
+.container .filter .filter-right span{
+    padding: 15px 0 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.container .filter .filter-right .selector{
+    position: absolute;
+    top: 39px;
+    right: 0;
+    box-shadow: 0 0 5px #888;
+}
+.container .filter .filter-right .selector li{
+    width: 200px;
+    padding: 11px 10px;
+    border-bottom: 1px solid #f1f1f3;
+    box-sizing: border-box;
+    font: 12px simhei;
+    text-align: left;
+}
+.container .filter .filter-right .selector li:hover{
+    background-color: #b0b0b0;
+}
+.container .filter .filter-right .selector li>a{
+    color: #333;
+}
