@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -203,4 +204,208 @@
 }
 .container .filter .filter-right .selector li>a{
     color: #333;
+=======
+body{
+    background-color: #fff !important;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+.top-content{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 11px;
+    position: relative;
+    top: 170px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.top-content li{
+    float: left;
+    width: 33.3%;
+    padding: 0 20px;
+    border-right: 1px solid #ededed;
+    text-align: center;
+    height: 35px;
+}
+.top-content ul li:last-child{
+    border-right: 0;
+}
+.top-content li a{
+    color: #190c26;
+    height: 35px;
+    line-height: 35px;
+}
+#lbt{
+    position: relative;
+    top: 180px;
+    width: 960px;
+    margin: 0 auto;
+}
+#lbt .lbt-left,
+#lbt .lbt-right{
+    width: 60px;
+    height: 60px;
+    background: #f4f4f4;
+    position: relative;
+    box-shadow: 0 2px 2px 1px rgba(48,37,52,.2);
+}
+#lbt .lbt-left{
+    margin-left: -145px;
+}
+#lbt .lbt-right{
+    margin-right: -145px;
+}
+#lbt i{
+    position: absolute;
+    font-size: 44px;
+    color: #000000;
+    left: 10px;
+    font-weight: bolder;
+    top: -5px;
+}
+#lbt .lbt-content,
+.tj-img .img-detail{
+    position: absolute;
+    bottom: 70px;
+    left: 400px;
+}
+#lbt .lbt-content>p,
+.tj-img .img-detail>p{
+    font-size: 26px;
+    color: #000000;
+}
+#lbt .lbt-content .buy{
+    text-decoration: none !important;
+}
+#lbt .lbt-content .buy div{
+    border: 1px solid #000000;
+    position: absolute;
+    left: -50px;
+    width: 260px;
+    height: 35px;
+}
+#lbt .lbt-content .buy div:hover p{
+    color: #000000;
+}
+#lbt .lbt-content .buy p{
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #5b5b5b;
+}
+.content-asset{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 187px;
+    text-align: center;
+    padding: 20px 0 4px;
+}
+.content-asset a span{
+    color: #2d2232;
+}
+.content-asset a:first-child span{
+    font-size: 20px;
+}
+.content-asset a:last-child span{
+    font-size: 12px;
+}
+.content-asset a:first-child{
+    text-align: center;
+}
+.content-asset a:last-child{
+    float: right;
+}
+.content-asset a:last-child:hover{
+    text-decoration: underline;
+    color: #2d2232;
+}
+.pop-com{
+    width: 960px;
+    margin: 0 auto;
+    height: 410px;
+    position: relative;
+    border: 1px solid #dedfe0;
+    border-width: 1px 0;
+    top: 200px;
+}
+.pop-com>div{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    height: 100%;
+    border-right: 1px solid #dedfe0;
+}
+.pop-com>div:last-child{
+    border-right: 0;
+}
+.pop-com>div>.blank{
+    width: 76px;
+    height: 24px;
+}
+.pop-com>div>.flag-top{
+    width: 76px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 2px;
+    background: #F08080;
+    text-align: center;
+    line-height: 19px;
+}
+.pop-com>div>.flag-top span{
+    font-size: 14px;
+    color: #fff;
+}
+.pop-com>div>.product-img{
+    width: 179px;
+    height: 179px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.pop-com>div>.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.pop-com>div>.product-name{
+    height: 28px;
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+.pop-com>div>.product-name a{
+    color: #000000;
+    font-size: 14px;
+}
+.pop-com>div>.product-price{
+    height: 32px;
+    margin-top: 32px;
+    text-align: center;
+}
+.pop-com>div>.product-price span{
+    font-size: 12px;
+    color: #b5b5b5;
+}
+.tj-img{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+    height: 460px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tj-img>div .img-detail{
+
+}
+.tj-img .img-detail .buy div{
+    border: 1px solid #000000;
+    position: absolute;
+    left: -50px;
+    width: 260px;
+    height: 35px;
+>>>>>>> 首页第一次提交
 }
