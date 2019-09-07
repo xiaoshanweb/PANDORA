@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -202,9 +201,9 @@
 .container .filter .filter-right .selector li:hover{
     background-color: #b0b0b0;
 }
-.container .filter .filter-right .selector li>a{
+.container .filter .filter-right .selector li>a {
     color: #333;
-=======
+}
 body{
     background-color: #fff !important;
 }
@@ -273,7 +272,8 @@ iframe{
     left: 400px;
 }
 #lbt .lbt-content>p,
-.tj-img .img-detail>p{
+.tj-img .img-detail>p,
+.tj-img .img-detail1>p{
     font-size: 26px;
     color: #000000;
 }
@@ -388,7 +388,8 @@ iframe{
     font-size: 12px;
     color: #b5b5b5;
 }
-.tj-img{
+.tj-img,
+.tj-img1{
     width: 960px;
     margin: 0 auto;
     position: relative;
@@ -398,14 +399,186 @@ iframe{
     display: flex;
     justify-content: space-between;
 }
-.tj-img>div .img-detail{
-
+.tj-img1 img{
+    width: 460px;
+    height: 460px;
 }
-.tj-img .img-detail .buy div{
+.tj-img>div .img-detail{
+    position: absolute;
+    left: 150px;
+}
+.tj-img>div .img-detail1{
+    position: absolute;
+    right: 150px;
+    top: 333px;
+}
+.tj-img .img-detail .buy div,
+.tj-img .img-detail1 .buy div{
     border: 1px solid #000000;
     position: absolute;
     left: -50px;
     width: 260px;
     height: 35px;
->>>>>>> 首页第一次提交
+    line-height: 35px;
+}
+.tj-img .img-detail .buy div p,
+.tj-img .img-detail1 .buy div p{
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+}
+.hlsx{
+    width: 960px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    top: 240px;
+    margin-bottom: 40px;
+}
+.hlsx .hlsx-xl{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    margin-left: -200px;
+}
+.hlsx .hlsx-xl h2{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.hlsx .hlsx-buy{
+    position: absolute;
+    top: 390px;
+    width: 94px;
+    height: 35px;
+    line-height: 35px;
+    left: 50%;
+    margin-left: -47px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.hlsx .hlsx-buy p{
+    text-align: center;
+    color: #333333;
+    font-size: 12px;
+}
+.tj-img1 .lxzb,
+.tj-img1 .cxjz{
+    width: 380px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+}
+.tj-img1 .lxzb{
+    left: 40px;
+}
+.tj-img1 .cxjz{
+    right: 40px;
+}
+.tj-img1 .lxzb p,
+.tj-img1 .cxjz p{
+    font-size: 24px;
+    cursor: pointer;
+}
+.tj-img1 .lxzb-buy,
+.tj-img1 .cxjz-buy{
+    width: 94px;
+    height: 35px;
+    position: absolute;
+    top: 360px;
+    line-height: 35px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.tj-img1 .lxzb-buy{
+    left: 180px;
+}
+.tj-img1 .cxjz-buy{
+    right: 180px;
+}
+.tj-img1 .lxzb-buy p,
+.tj-img1 .cxjz-buy p{
+    color:#333;
+    font-size: 12px;
+    text-align: center;
+}
+.ci-module{
+    width: 960px;
+    height: 833px;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+}
+.ci-module>h2,
+.ci-module>p{
+    text-align: center;
+}
+.ci-module .ci-module-left{
+    width: 474px;
+    height: 734px;
+    float: left;
+}
+.ci-module .ci-module-left .ci-module-left-top{
+    position: relative;
+}
+.ci-module .ci-module-left .ci-module-left-top img{
+    width: 474px;
+    height: 383px;
+}
+.ci-module .ci-module-right{
+    width: 486px;
+    height: 734px;
+    float: left;
+    position: relative;
+}
+.ci-module .ci-module-right img{
+    width: 474px;
+    height: 711px;
+    margin-top: 10px;
+}
+.ci-module .ci-module-right>div,
+.ci-module .ci-module-left .ci-module-left-top>div{
+    position: absolute;
+    left: 20px;
+    bottom: 35px;
+}
+.ci-module .ci-module-right>div>p,
+.ci-module .ci-module-left .ci-module-left-top>div>p{
+    font-size: 14px;
+}
+.ci-module .ci-module-right>p,
+.ci-module .ci-module-left .ci-module-left-top>p{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.ci-module .ci-module-left .ci-module-text{
+    width: 354px;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.ci-module .ci-module-left .ci-module-text>div{
+    margin-top: 20px;
+}
+.ci-module .ci-module-left .ci-module-btn{
+    width: 94px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #333;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.ci-module .ci-module-left .ci-module-btn p{
+    color: #fff;
+    font-size: 12px;
 }
