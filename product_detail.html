@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/product_detail.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="breadcrumb">
+            <ul>
+                <li class="first">
+                    <i class="iconfont icon-fangxiangjiantou-xiangzuo"></i>
+                    <a href="">返回</a>
+                    <span>|</span>
+                </li>
+                <li class="two">
+                    <a href="">主页</a>
+                    <i class="iconfont icon-you"></i>
+                </li>
+                <li class="third">
+                    <a href="">串饰</a>
+                    <i class="iconfont icon-you"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="product-pic">
+                <div class="thumb-container">
+                    <div class="thumb select">
+                        <img src="img/image_17.JPG"    onclick="change(this.src)" alt="">
+                    </div>
+                    <div class="thumb">
+                        <img src="img/image_04.JPG"    onclick="change(this.src)" alt="">
+                    </div>
+                    <div class="thumb">
+                        <img src="img/image_10.JPG"    onclick="change(this.src)" alt="">
+                    </div>
+                    <div class="thumb">
+                        <img src="img/image_05.JPG"    onclick="change(this.src)" alt="">
+                    </div>
+                </div>
+                <div class="zomimg">
+                    <div class="">
+                        <img src="img/image_31.JPG" id="datu" width='600px' alt="">
+                    </div>
+                </div>
+                <div class="product-det">
+                    <h2 class="product-title"> 璀璨深蓝色串饰</h2>
+                    <p class="product-price"> 598.00 CNY</p>
+                    <p class="product-desc">金属色&nbsp;银</p>
+                    <p class="product-desc">人气畅销</p>
+                    <button class="shoppingcar">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-left">
+                <span>商品资料</span>
+                <p>以这款迷人的月光蓝串饰照亮夜空。它以925银精心打造，镶嵌璀璨的深蓝色，环绕闪石。侧面心形镂空细节进一步提升美感。可搭配925银手链，亦可作为潘多拉项链上的耀眼吊坠。</p>
+            </div>
+            <div class="service-right">
+                <ul class="section-content">
+                    <li>
+                        <span class="label">材质</span>
+                        <span class="value">无其他特殊材质</span>
+                    </li>
+                    <li>
+                        <span class="label">金属</span>
+                        <span class="value">925银</span>
+                    </li>
+                    <li>
+                        <span class="label">宝石</span>
+                        <span class="value">Mixed stones</span>
+                    </li>
+                    <li>
+                        <span class="label">主题</span>
+                        <span class="value">闪耀的心</span>
+                    </li>
+                </ul>
+                <ul class="section-content">
+                        <li>
+                            <span class="label">类目</span>
+                            <span class="value">串饰</span>
+                        </li>
+                        <li>
+                            <span class="label">商品编号</span>
+                            <span class="value">797125NMB</span>
+                        </li>
+                        <li>
+                            <span class="label">尺寸</span>
+                            <span class="value">厚度：12.2毫米</span>
+                            <span class="value">高度：11.4毫米</span>
+                            <span class="value">厚度：11.4毫米</span>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        function change(src){
+            var datu=document.getElementById("datu");
+            datu.src=src;
+		}
+    </script>
+
+</body>
+</html>
