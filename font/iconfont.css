@@ -35,4 +35,6 @@
 .icon-you:before{
   content: '\e618';
 }
-
+.icon-aixin:before {
+  content: "\e62a";
+}

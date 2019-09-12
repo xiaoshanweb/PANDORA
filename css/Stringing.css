@@ -1,38 +1,57 @@
 <<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-.container .header{
-    width: 1349px;
-    height: 159px;
-    border-bottom: 1px solid #000;
+header .nav .nav-center ul li .menu2 .d1 .d1-menu1 p,
+header .nav .nav-center ul li .menu2 .d1 .d1-menu2 p,
+header .nav .nav-center ul li .menu2 .d1 .d1-menu3 p{
+    height: 10px;
+    font-size: 12px;
+    color: #706d75;
+    cursor: pointer;
 }
-.container .describle{
+header .nav .nav-center ul li .menu8 .menu8-center .menu8-ct-left p,
+header .nav .nav-center ul li .menu8 .menu8-center .menu8-ct-right p{
+    margin-bottom: 16px;
+    margin-left: 30px;
+    font-size: 12px;
+    height: 12px;
+    color: #706d75
+}
+.container-fluid .headder{
+    width: 1349px;
+    height: 149px;
+}
+.container-fluid .nav{
+    z-index: 199;
+}
+.container-fluid .describle{
     background: url(../img/breadcrumb-bg.jpg);
 }
-.container .describle .breadcrumb{
+.container-fluid .describle .breadcrumb{
     width: 1128px;
     height: 50px;
     margin: 0 auto;
     padding: 8px 19px 14px;
     box-sizing: border-box;
 }
-.container .describle .breadcrumb a{
+.container-fluid .describle .breadcrumb a{
     color: #333333;
     font:12px simhei;
 }
-.container .describle .breadcrumb .next-link{
+.container-fluid .describle .breadcrumb .next-link{
     color: #706D75;
     font:12px simhei;
 }
-.container .describle .breadcrumb .breadcrumb-elem{
+.container-fluid .describle .breadcrumb .breadcrumb-elem{
     color: #B8B8B8;
     font:12px simhei;
 }
-.container .describle .brief-flex{
+.container-fluid .describle .brief-flex{
     max-width: 1128px;
     margin: 0 auto;
     display: flex;
@@ -41,31 +60,31 @@
     justify-content: center;
     align-items: center;
 }
-.container .describle .brief-flex h1{
+.container-fluid .describle .brief-flex h1{
     margin-bottom: 12px;
     color: #333333;
     font-family: simhei; 
     text-transform: uppercase;
     font-weight: normal;
 }
-.container .describle .brief-flex .product-count{
+.container-fluid .describle .brief-flex .product-count{
     color: #B0B0B0;
     font-family: simhei; 
 }
-.container .describle .brief-flex .desc-word{
+.container-fluid .describle .brief-flex .desc-word{
     margin-bottom: 25px;
 }
-.container .describle .brief-flex .desc-word p{
+.container-fluid .describle .brief-flex .desc-word p{
     margin: 14px 0;
     color: #333333;
     font:14px "simhei";
     text-align: center;
 }
-.container .describle .product-kind{
+.container-fluid .describle .product-kind{
     text-align: center;
     margin-bottom: 30px;
 }
-.container .describle .product-kind .product-link{
+.container-fluid .describle .product-kind .product-link{
     display: inline-block;
     border: 1px solid #f1f1f3;
     margin-right: 8px;
@@ -75,7 +94,7 @@
     color: #333333;
     font: 12px "0ptima li w01 roman";
 }
-.container .filter{
+.container-fluid .filter{
     width: 100%;
     height: 40px;
     background-color: #fcfcfc;
@@ -83,7 +102,7 @@
     border-bottom: 1px solid #f1f1f3;
     position: relative;
 }
-.container .filter-content{
+.container-fluid .filter-content{
     max-width: 1128px;
     display: flex;
     flex-direction: row;
@@ -91,12 +110,12 @@
     padding: 0 19px;
     box-sizing: border-box;
 }
-.container .filter .filter-left{
+.container-fluid .filter .filter-left{
     width: 80%;
     display: flex;
     flex-direction: row;
 }
-.container .filter .filter-left span{
+.container-fluid .filter .filter-left span{
     display: inline-block;
     margin-right: 35px;
     padding: 15px 0 10px;
@@ -105,8 +124,8 @@
     position: relative;
     cursor: pointer;
 }
-.container .filter .filter-right span:after,
-.container .filter .filter-left span::after{
+.container-fluid .filter .filter-right span:after,
+.container-fluid .filter .filter-left span::after{
     position: absolute;
     right: -18px;
     top: 19px;
@@ -122,8 +141,8 @@
     -o-transition: all .25s;
     transition: all .25s;
 }
-.container .filter .filter-right span:before,
-.container .filter .filter-left span::before{
+.container-fluid .filter .filter-right span:before,
+.container-fluid .filter .filter-left span::before{
     content: "";
     position: absolute;
     right: -18px;
@@ -135,7 +154,7 @@
     border-style: solid;
     border-color: #333333 transparent;
 }
-.container .filter .filter-left .expend{
+.container-fluid .filter .filter-left .expend{
     width: 100%;
     padding-bottom: 12px;
     box-shadow:0 0 1px #888;
@@ -145,43 +164,43 @@
     background-color: #fff;
 
 }
-.container .filter .filter-left .expend .expend-main{
+.container-fluid .filter .filter-left .expend .expend-main{
     width: 1166px;
     margin: 0 auto;
     padding: 33px 0 14px;
 }
-.container .filter .filter-left .expend .expend-main-flex{
+.container-fluid .filter .filter-left .expend .expend-main-flex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.container .filter .filter-left .expend .expend-main-flex.price{
+.container-fluid .filter .filter-left .expend .expend-main-flex.price{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.container .filter .filter-left .expend .expend-main-flex.price .expend-flex-item{
+.container-fluid .filter .filter-left .expend .expend-main-flex.price .expend-flex-item{
     width: 200px;
 }
-.container .filter .filter-left .expend .expend-main-flex .expend-flex-item{
+.container-fluid .filter .filter-left .expend .expend-main-flex .expend-flex-item{
     width: 100px;
     padding: 3px 30px 3px 0;
     margin-bottom: 7px;
 }
 
-.container .filter .filter-left .expend .expend-main-flex .expend-flex-item img{
+.container-fluid .filter .filter-left .expend .expend-main-flex .expend-flex-item img{
     width: 60px;
     height: 60px;
     margin: 0 20px;
 }
-.container .filter .filter-left .expend .expend-main-flex .expend-flex-item p{
+.container-fluid .filter .filter-left .expend .expend-main-flex .expend-flex-item p{
     font: 12px simhei;
     color: #333;
     padding-top: 8px;
     text-align: center;
 }
-.container .filter .filter-left .expend .expend-main-flex .expend-flex-item .input{
+.container-fluid .filter .filter-left .expend .expend-main-flex .expend-flex-item .input{
     -webkit-appearance: none;
     display: inline-block;
     width: 16px;
@@ -193,7 +212,7 @@
     left: 20px;
     
 }
-.container .filter .filter-left .expend .expend-main-flex .expend-flex-item>a>i{
+.container-fluid .filter .filter-left .expend .expend-main-flex .expend-flex-item>a>i{
     display: inline-block;
     font-family: simhei;
     font-size:16px;
@@ -202,7 +221,7 @@
     top: 13px;
     left: 20px;
 }
-.container .filter .filter-right{
+.container-fluid .filter .filter-right{
     width: 20%;
     display: flex;
     flex-direction: row;
@@ -211,20 +230,20 @@
     color: #333;
     position: relative;
 }
-.container .filter .filter-right span{
+.container-fluid .filter .filter-right span{
     padding: 15px 0 10px;
     margin-right: 10px;
     position: relative;
     cursor: pointer;
 }
-.container .filter .filter-right .selector{
+.container-fluid .filter .filter-right .selector{
     position: absolute;
     top: 39px;
     right: 0;
     box-shadow: 0 0 5px #888;
     background-color: #fff;
 }
-.container .filter .filter-right .selector li{
+.container-fluid .filter .filter-right .selector li{
     width: 200px;
     padding: 11px 10px;
     border-bottom: 1px solid #f1f1f3;
@@ -232,239 +251,31 @@
     font: 12px simhei;
     text-align: left;
 }
-.container .filter .filter-right .selector li:hover{
+.container-fluid .filter .filter-right .selector li:hover{
     background-color: #b0b0b0;
 }
-.container .filter .filter-right .selector li>a{
+.container-fluid .filter .filter-right .selector li>a{
     color: #333;
-<<<<<<< HEAD:css/index.css
-=======
-body{
-    background-color: #fff !important;
 }
-iframe{
-    width: 100%;
-    height: 600px;
-}
-.top-content{
-    display: block;
-    width: 960px;
-    margin: 0 auto;
-    font-size: 11px;
-    position: relative;
-    top: 170px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-.top-content li{
-    float: left;
-    width: 33.3%;
-    padding: 0 20px;
-    border-right: 1px solid #ededed;
-    text-align: center;
-    height: 35px;
-}
-.top-content ul li:last-child{
-    border-right: 0;
-}
-.top-content li a{
-    color: #190c26;
-    height: 35px;
-    line-height: 35px;
-}
-#lbt{
-    position: relative;
-    top: 180px;
-    width: 960px;
-    margin: 0 auto;
-}
-#lbt .lbt-left,
-#lbt .lbt-right{
-    width: 60px;
-    height: 60px;
-    background: #f4f4f4;
-    position: relative;
-    box-shadow: 0 2px 2px 1px rgba(48,37,52,.2);
-}
-#lbt .lbt-left{
-    margin-left: -145px;
-}
-#lbt .lbt-right{
-    margin-right: -145px;
-}
-#lbt i{
-    position: absolute;
-    font-size: 44px;
-    color: #000000;
-    left: 10px;
-    font-weight: bolder;
-    top: -5px;
-}
-#lbt .lbt-content,
-.tj-img .img-detail{
-    position: absolute;
-    bottom: 70px;
-    left: 400px;
-}
-#lbt .lbt-content>p,
-.tj-img .img-detail>p{
-    font-size: 26px;
-    color: #000000;
-}
-#lbt .lbt-content .buy{
-    text-decoration: none !important;
-}
-#lbt .lbt-content .buy div{
-    border: 1px solid #000000;
-    position: absolute;
-    left: -50px;
-    width: 260px;
-    height: 35px;
-}
-#lbt .lbt-content .buy div:hover p{
-    color: #000000;
-}
-#lbt .lbt-content .buy p{
-    line-height: 35px;
-    text-align: center;
-    font-size: 12px;
-    color: #5b5b5b;
-}
-.content-asset{
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
-    top: 187px;
-    text-align: center;
-    padding: 20px 0 4px;
-}
-.content-asset a span{
-    color: #2d2232;
-}
-.content-asset a:first-child span{
-    font-size: 20px;
-}
-.content-asset a:last-child span{
-    font-size: 12px;
-}
-.content-asset a:first-child{
-    text-align: center;
-}
-.content-asset a:last-child{
-    float: right;
-}
-.content-asset a:last-child:hover{
-    text-decoration: underline;
-    color: #2d2232;
-}
-.pop-com{
-    width: 960px;
-    margin: 0 auto;
-    height: 410px;
-    position: relative;
-    border: 1px solid #dedfe0;
-    border-width: 1px 0;
-    top: 200px;
-}
-.pop-com>div{
-    float: left;
-    width: 25%;
-    box-sizing: border-box;
-    height: 100%;
-    border-right: 1px solid #dedfe0;
-}
-.pop-com>div:last-child{
-    border-right: 0;
-}
-.pop-com>div>.blank{
-    width: 76px;
-    height: 24px;
-}
-.pop-com>div>.flag-top{
-    width: 76px;
-    height: 24px;
-    margin: 0 auto;
-    margin-top: 2px;
-    background: #F08080;
-    text-align: center;
-    line-height: 19px;
-}
-.pop-com>div>.flag-top span{
-    font-size: 14px;
-    color: #fff;
-}
-.pop-com>div>.product-img{
-    width: 179px;
-    height: 179px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-.pop-com>div>.product-img img{
-    width: 100%;
-    height: 100%;
-}
-.pop-com>div>.product-name{
-    height: 28px;
-    padding: 0 40px;
-    text-align: center;
-    margin-top: 30px;
-}
-.pop-com>div>.product-name a{
-    color: #000000;
-    font-size: 14px;
-}
-.pop-com>div>.product-price{
-    height: 32px;
-    margin-top: 32px;
-    text-align: center;
-}
-.pop-com>div>.product-price span{
-    font-size: 12px;
-    color: #b5b5b5;
-}
-.tj-img{
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
-    top: 220px;
-    height: 460px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-.tj-img>div .img-detail{
-
-}
-.tj-img .img-detail .buy div{
-    border: 1px solid #000000;
-    position: absolute;
-    left: -50px;
-    width: 260px;
-    height: 35px;
->>>>>>> 首页第一次提交
-}
-=======
-}
-
-
 /* 商品列表 */
-.container .product{
+.container-fluid .product{
     max-width: 1128px;
     margin: 0 auto;
 }
-.container .product  .first-row{
+.container-fluid .product  .first-row{
     display: flex;
     flex-direction: row;
 }
-.container .product  .first-row .first-row-items{
+.container-fluid .product  .first-row .first-row-items{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
     border: 1px solid #f1f1f3;
 }
-.container .product  .first-row .first-row-items .flag-top{
+.container-fluid .product  .first-row .first-row-items .flag-top{
     display: block;
     width: 76px;
     margin-top:6px;
@@ -474,34 +285,26 @@ iframe{
     padding: 2px 10px;
     box-sizing: border-box;
 }
-.container .product  .first-row .first-row-items .product-price,
-.container .product  .first-row .first-row-items .product-name{
+.container-fluid .product  .first-row .first-row-items .product-center-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid .product  .first-row .first-row-items .product-price,
+.container-fluid .product  .first-row .first-row-items .product-name{
     color: #333;
     font: 12px simhei;
     display: block;
     margin-top:32px;
 }
-/* .container .product  .first-row .first-row-items .add-shoppingcar:hover{
-    display: block;
-    width: 230px;
-    height: 35px;
-} */
-.container .product .first-row  .first-row-items .add-shoppingcar{
+.container-fluid .product .first-row  .first-row-items .add-shoppingcar{
     width: 80%;
     height: 35px;   
     margin: 20px 0 20px;
     font-size: 0;
     text-align: center;
+}
+.container-fluid .product  .first-row .first-row-items .add-shoppingcar button{
     visibility: hidden;
-}
-.container .product .first-row  .first-row-items .add-shoppingcar:hover{
-    visibility: visible;
-    width: 80%;
-    height: 35px;
-    background-color: #000;
-}
-.container .product  .first-row .first-row-items .add-shoppingcar button{
-    /* display: none; */
     width: 230px;
     height: 35px;
     border: none;
@@ -509,8 +312,8 @@ iframe{
     font: 14px simhei;
     color: #fff;
 }
-
-.container .product  .first-row .first-row-items .add-shoppingcar i{
+.container-fluid .product  .first-row .first-row-items .add-shoppingcar i{
+    visibility: hidden;
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -522,4 +325,8 @@ iframe{
     top: 10px;
     box-sizing: border-box;
 }
->>>>>>> 二级下拉菜单，三级页面:css/Stringing.css
+.container-fluid .product  .first-row .first-row-items .add-shoppingcar:hover button,
+.container-fluid .product  .first-row .first-row-items .add-shoppingcar:hover i{
+    visibility: visible;
+}
+
