@@ -298,9 +298,7 @@ header .nav .nav-center ul li .menu8 .menu8-center .menu8-ct-right p{
 }
 .container-fluid .product .first-row  .first-row-items .add-shoppingcar{
     width: 80%;
-    height: 35px;   
     margin: 20px 0 20px;
-    font-size: 0;
     text-align: center;
 }
 .container-fluid .product  .first-row .first-row-items .add-shoppingcar button{
@@ -322,7 +320,8 @@ header .nav .nav-center ul li .menu8 .menu8-center .menu8-ct-right p{
     font-size: 24px;
     line-height: 1.9;
     position: relative;
-    top: 10px;
+    top: 9px;
+    left: -4px;
     box-sizing: border-box;
 }
 .container-fluid .product  .first-row .first-row-items .add-shoppingcar:hover button,

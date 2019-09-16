@@ -6,6 +6,9 @@
         padding-right:0;
     }
 }
+.container{
+    margin-top:78px;
+}
 .my-big{
     position:relative;
 }
@@ -140,11 +143,11 @@
 }
 .last_page{
     left:0%;
-    background-image:url("../image/big-left.png");
+    background-image:url("../img/big-left.png");
 }
 .next_page{
     right:0%;
-    background-image:url("../image/big-right.png");
+    background-image:url("../img/big-right.png");
 }
 /*商品标签*/
 .po-abs-top{

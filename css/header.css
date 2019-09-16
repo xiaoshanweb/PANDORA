@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -461,6 +462,7 @@ a:hover{
 .nav .nav-center ul li .menu2 .d1 .d1-menu1 p,
 .nav .nav-center ul li .menu2 .d1 .d1-menu2 p,
 .nav .nav-center ul li .menu2 .d1 .d1-menu3 p{
+    margin-bottom: 16px;
     height: 10px;
     font-size: 12px;
     cursor: pointer;
