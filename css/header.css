@@ -9,9 +9,6 @@ a{
 a:hover{
     text-decoration: none;
 }
-.container-fluid{
-    padding: 0;
-}
 .header{
     position: fixed;
     width: 100%;
@@ -86,6 +83,7 @@ a:hover{
     display: block;
     font-size: 12px;
     margin-right: 28px;
+    padding-bottom: 10px;
 }
 .header .hd-right .user-link{
     position: absolute;
@@ -102,6 +100,9 @@ a:hover{
     display: none;
 }
 .header .hd-right>ul>li:nth-child(2):hover .user-link{
+    display: block;
+}
+.header .hd-right>ul>li:nth-child(2) .user-link:hover{
     display: block;
 }
 .header .hd-right .user-link .user-link-brank{
@@ -283,19 +284,19 @@ a:hover{
     left: 296px;
 }
 .nav .nav-center ul li .menu7{
-    width: 499px;
+    width: 501px;
     height: 435px;
-    left: 462px;
+    left: 460px;
 }
 .nav .nav-center ul li .menu8{
-    width: 685px;
+    width: 687px;
     height: 341px;
-    left: 354px;
+    left: 352px;
 }
 .nav .nav-center ul li .menu9{
-    width: 460px;
+    width: 462px;
     height: 464px;
-    left: 657px;
+    left: 655px;
 }
 .nav .nav-center ul .n-li1:hover .menu,
 .nav .nav-center ul .n-li2:hover .menu1,
@@ -357,17 +358,17 @@ a:hover{
 }
 .nav .nav-center ul .n-li8:hover .menu7 .blank{
     width: 106px;
-    left: 391px;
+    left: 393px;
     top: -3px;
 }
 .nav .nav-center ul .n-li9:hover .menu8 .blank{
      width: 78px;
-     left: 605px;
+     left: 607px;
      top: -3px;
 }
 .nav .nav-center ul .n-li10:hover .menu9 .blank{
     width: 78px;
-    left: 380px;
+    left: 382px;
     top: -3px;
 }
 .nav .nav-center ul .n-li1:hover,

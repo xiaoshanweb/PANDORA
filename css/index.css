@@ -4,6 +4,19 @@
     list-style: none;
     text-decoration: none;
 }
+.container-fluid{
+    padding: 0;
+}
+.container-fluid>p{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 200px;
+}
+.container-fluid>a>img{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
 .container .header{
     width: 1349px;
     height: 159px;

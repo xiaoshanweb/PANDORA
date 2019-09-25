@@ -1,19 +1,6 @@
 a{
     text-decoration: none;
 }
-.container-fluid{
-    padding: 0;
-}
-.container-fluid>p{
-    font-size: 12px;
-    margin-top: 6px;
-    margin-left: 200px;
-}
-.container-fluid>a>img{
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-}
 .bottom-email{
     background-color: #fff;
     width: 100%;
@@ -111,10 +98,10 @@ a{
 .footer .f-content .list2 ul li,
 .footer .f-content .list3 ul li,
 .footer .f-content .list4 ul li:first-child{
-    margin-top: -8px;
+    margin-top: 0px;
 }
 .footer .f-content .list4 ul li:last-child{
-    margin-top: -3px;
+    margin-top: -2px;
 }
 .footer .f-content .list1 ul li a,
 .footer .f-content .list2 ul li a,

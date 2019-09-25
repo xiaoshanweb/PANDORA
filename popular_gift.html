@@ -11,11 +11,17 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/popular.css"/>
     <link rel="stylesheet" href="font/iconfont.css"/>
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_1368019_jrb7lhnbsed.css"/>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1357872_a69stxrzzv.css"/>
+    <script src="js/vue.js"></script>
+    <script src="js/MyHeader.js"></script>
+    <script src="js/MyFooter.js"></script>
 </head>
 <body>
-<header></header>
-<div class="container-fluid px-0">
+<div id="app">
+    <my-header></my-header>
+    <div class="container-fluid px-0">
     <div class="primary-content zh-CN">
         <div class="hero-section">
             <!--面包屑导航-->
@@ -219,6 +225,17 @@
     </div>
 
 </div>
-<footer></footer>
+<my-footer></my-footer>
+</div>
+<script>
+    Vue.component("my-header",MyHeader);
+    Vue.component("my-footer",MyFooter);
+    var vm = new Vue({
+        el:"#app",
+        data:{
+
+        }
+    })
+</script>
 </body>
 </html>

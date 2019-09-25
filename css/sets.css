@@ -7,8 +7,8 @@ ul{
 a:hover{
     text-decoration: none;
 }
-.content-detail{
-    padding: 0 3.5vw;
+.container-fluid{
+    padding-top: 150px;
 }
 .content-detail:after,.chicun:after,.checksize:after,.productDetails:after{
     content: '';

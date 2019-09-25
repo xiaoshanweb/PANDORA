@@ -3,6 +3,9 @@ body{
     font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+.container-fluid{
+    padding-top: 150px;
+}
 a{
     color: #333;
 }
@@ -15,7 +18,7 @@ a:hover{
     height: 258px;
     background: url("../img/bg.jpg") center;
 }
-/*Ãæ°üÐ¼µ¼º½*/
+/*ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½*/
 .hero-section .breadcrumb{
     margin: 0 auto;
     position: relative;
@@ -40,7 +43,7 @@ a:hover{
 .breadcrumb span.breadcrumb-element {
     color: #b8b8b8;
 }
-/*±êÌâ*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 .hero-section h1 {
     font-size: 34px;
     text-align: center;
@@ -51,7 +54,7 @@ a:hover{
 .hero-section h1 .products-count {
     color: #b0b0b0;
 }
-/*±êÌâÏÂÎÄ×Ö*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .hero-section .category-promo {
     width: 580px;
     margin: 0 auto;
@@ -62,7 +65,7 @@ a:hover{
     text-align: center;
     margin-bottom: 14px;
 }
-/*±êÌâÏÂÎÄ×ÖÏÂÐ¡·½¿é*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½*/
 .hero-section .re-link{
     display: inline-block;
     margin-right: 8px;
@@ -71,7 +74,7 @@ a:hover{
     background-color: #fff;
     color: #333;
 }
-/*·ÖÀàµ¼º½À¸*/
+/*ï¿½ï¿½ï¿½àµ¼ï¿½ï¿½ï¿½ï¿½*/
 .filters {
     background-color: #fcfcfc;
     height: 40px;
@@ -84,7 +87,7 @@ a:hover{
     margin: 0 auto;
     position: relative;
 }
-/*Ö÷ÌåÄÚÈÝ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .search-result-content{
     width: 960px;
     margin: 0 auto;
@@ -94,7 +97,7 @@ a:hover{
     display: block;
     clear: both;
 }
-/*ÄÚÈÝµ¥¸öÉÌÆ·*/
+/*ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½Æ·*/
 .pro_ul{
     position: relative;
 }
@@ -113,7 +116,7 @@ a:hover{
     border: 1px solid #f1f1f3;
     border-width: 0 1px 1px 0;
 }
-/*°ü¹üÍ¼Æ¬µÄdiv */
+/*ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½div */
 .product_tile{
     width: 319px;
     height: 440px;
@@ -121,7 +124,7 @@ a:hover{
     text-align: center;
     display: inline-block;
 }
-/*ºìÉ«±³¾°³©Ïú*/
+/*ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .product_tile .flagTop {
     line-height: 10px;
     min-height: 21px;
@@ -137,7 +140,7 @@ a:hover{
     padding: 2px 10px;
     color: #FFFFFF;
 }
-/*°ü¹üÍ¼Æ¬µÄdiv*/
+/*ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½div*/
 .product-image{
     width: 259px;
     height: 230px;
@@ -147,7 +150,7 @@ a:hover{
     width: 280px;
     height: 280px;
 }
-/*ÉÌÆ·µÄÃû³Æ*/
+/*ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .product_tile .product-name{
     line-height: 130%;
     height: 28px;
@@ -201,7 +204,7 @@ a:hover{
 .product_tile:hover .cartbuttonDiv{
     display: block;
 }
-/*µ²×¡×îÓÒ²à±ß¿ò*/
+/*ï¿½ï¿½×¡ï¿½ï¿½ï¿½Ò²ï¿½ß¿ï¿½*/
 .grid-hide-right-border{
     position: absolute;
     display: block;
